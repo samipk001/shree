@@ -15,6 +15,7 @@ const copyStaticAssets = () => ({
     const htmlPages = [
       'index.html',
       'contact.html',
+      'contact-preview.html',
       '404.html',
       'terms-and-conditions.html',
       'privacy-policy.html'
@@ -42,7 +43,8 @@ export default defineConfig({
         contact: resolve(__dirname, 'src/html/contact.html'),
         '404': resolve(__dirname, 'src/html/404.html'),
         'terms': resolve(__dirname, 'src/html/terms-and-conditions.html'),
-        'privacy': resolve(__dirname, 'src/html/privacy-policy.html')
+        'privacy': resolve(__dirname, 'src/html/privacy-policy.html'),
+        'contact-preview': resolve(__dirname, 'src/html/contact-preview.html')
       }
     }
   }
