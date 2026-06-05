@@ -99,7 +99,25 @@ $(function () {
         });
     }
 
+    function fixOffcanvasAnchorLinks() {
+        const offcanvas = document.getElementById('offcanvasHeader');
+        if (!offcanvas || typeof bootstrap === 'undefined') {
+            return;
+        }
+
+        const links = offcanvas.querySelectorAll('.offcanvas-body a[data-bs-dismiss="offcanvas"]');
+        const offcanvasInstance = bootstrap.Offcanvas.getOrCreateInstance(offcanvas);
+
+        links.forEach(link => {
+            link.removeAttribute('data-bs-dismiss');
+            link.addEventListener('click', () => {
+                offcanvasInstance.hide();
+            });
+        });
+    }
+
     updateShowcaseLinks();
+    fixOffcanvasAnchorLinks();
 
     // Scroll
     const sections = document.querySelectorAll("section[id]");
