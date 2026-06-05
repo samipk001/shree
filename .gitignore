@@ -1,0 +1,3 @@
+/node_modules/
+# Local secrets for admin uploads
+src/assets/js/secrets.js

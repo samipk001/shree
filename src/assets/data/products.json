@@ -1,0 +1,38 @@
+{
+  "ingco-tools": {
+    "label": "INGCO Professional Power Tools",
+    "badge": "INGCO",
+    "products": [
+      { "id": "ingco-drill", "title": "20V Cordless Drill", "description": "High-torque battery drill for varying jobsite needs.", "price": 6999, "salePrice": null, "stock": 12, "image": "../assets/images/products/ingco-drill.png" },
+      { "id": "ingco-grinder", "title": "850W Angle Grinder", "description": "Reliable grinder with comfort grip and strong motor.", "price": 7499, "salePrice": null, "stock": 8, "image": "../assets/images/products/ingco-grinder.png" },
+      { "id": "ingco-saw", "title": "1650W Circular Saw", "description": "Precision cutting for wood, metal, and construction materials.", "price": 10499, "salePrice": null, "stock": 5, "image": "../assets/images/products/ingco-saw.png" }
+    ]
+  },
+  "libang-machinery": {
+    "label": "Libang Power Tools",
+    "badge": "Libang",
+    "products": [
+      { "id": "libang-generator", "title": "5kVA Diesel Generator", "description": "Stable backup power for workshops and construction sites.", "price": 129999, "salePrice": null, "stock": 2, "image": "../assets/images/products/libang-generator.png" },
+      { "id": "libang-compressor", "title": "8 Bar Air Compressor", "description": "Durable compressor for pneumatic tools and inflating.", "price": 54999, "salePrice": null, "stock": 6, "image": "../assets/images/products/libang-compressor.png" },
+      { "id": "libang-motor", "title": "Heavy Duty Motor", "description": "Industrial grade motor for pumps, fans, and machinery.", "price": 39999, "salePrice": null, "stock": 4, "image": "../assets/images/products/libang-motor.png" }
+    ]
+  },
+  "hand-tools": {
+    "label": "Industrial Grade Hand Tools & Hardware",
+    "badge": "Tools",
+    "products": [
+      { "id": "socket-set", "title": "108-Piece Socket Set", "description": "Complete socket kit for mechanical and maintenance work.", "price": 8499, "salePrice": null, "stock": 20, "image": "../assets/images/products/handtools-socket-set.png" },
+      { "id": "wrench-set", "title": "Chrome Vanadium Wrench Set", "description": "Wide range wrench set with durable finish.", "price": 5299, "salePrice": null, "stock": 15, "image": "../assets/images/products/handtools-wrench-set.png" },
+      { "id": "screwdriver-kit", "title": "Ratcheting Screwdriver Kit", "description": "Multi-tip screwdriver set for precision and speed.", "price": 2499, "salePrice": null, "stock": 30, "image": "../assets/images/products/handtools-screwdriver-kit.png" }
+    ]
+  },
+  "welding-gear": {
+    "label": "Welding Machinery & Site Operations Gear",
+    "badge": "Welding",
+    "products": [
+      { "id": "welding-welder", "title": "200A Inverter Welder", "description": "Portable welder for steel and stainless steel applications.", "price": 27999, "salePrice": null, "stock": 7, "image": "../assets/images/products/welding-welder.png" },
+      { "id": "welding-helmet", "title": "Auto Darkening Helmet", "description": "Comfort fit helmet with fast lens switching.", "price": 4299, "salePrice": null, "stock": 18, "image": "../assets/images/products/welding-helmet.png" },
+      { "id": "welding-gloves", "title": "Safety Gloves & Apron Kit", "description": "Heat-resistant protection for all welding tasks.", "price": 2199, "salePrice": null, "stock": 25, "image": "../assets/images/products/welding-gloves-kit.png" }
+    ]
+  }
+}
