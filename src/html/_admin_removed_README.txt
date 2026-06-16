@@ -1,0 +1,2 @@
+Admin UI moved to src/private/admin.html — removed from public html folder to prevent accidental exposure.
+If you need to restore, copy from src/private/admin.html back to src/html/admin.html and secure it behind server auth.

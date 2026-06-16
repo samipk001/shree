@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap for https://www.shreetrading.com.np
+Sitemap: https://www.shreetrading.com.np/sitemap.xml
+
+# Legacy admin path blocked (admin UI moved to a private folder)
+Disallow: /html/admin.html
+
+# Admin UI moved to src/private/admin.html and is not included in public builds.
