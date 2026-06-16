@@ -3,15 +3,29 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "regions": ["iad1"],
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/html/index.html", "destination": "/", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/html/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/contact-preview.html", "destination": "/contact-preview", "permanent": true },
+    { "source": "/html/contact-preview.html", "destination": "/contact-preview", "permanent": true },
+    { "source": "/privacy-policy.html", "destination": "/privacy", "permanent": true },
+    { "source": "/html/privacy-policy.html", "destination": "/privacy", "permanent": true },
+    { "source": "/terms-and-conditions.html", "destination": "/terms", "permanent": true },
+    { "source": "/html/terms-and-conditions.html", "destination": "/terms", "permanent": true },
+    { "source": "/404.html", "destination": "/404", "permanent": true },
+    { "source": "/html/404.html", "destination": "/404", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/html/index.html" },
     { "source": "/contact", "destination": "/html/contact.html" },
     { "source": "/contact-preview", "destination": "/html/contact-preview.html" },
     { "source": "/privacy", "destination": "/html/privacy-policy.html" },
     { "source": "/terms", "destination": "/html/terms-and-conditions.html" },
+    { "source": "/404", "destination": "/html/404.html" },
     { "source": "/robots.txt", "destination": "/robots.txt" },
-    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
-    { "source": "/404", "destination": "/html/404.html" }
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" }
   ]
 }
 
