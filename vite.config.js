@@ -24,11 +24,17 @@ const copyStaticAssets = () => ({
     for (const page of htmlPages) {
       await fs.copyFile(resolve(htmlSrc, page), resolve(__dirname, 'dist', page));
     }
+
+    const publicFiles = ['robots.txt', 'sitemap.xml'];
+    for (const file of publicFiles) {
+      await fs.copyFile(resolve(__dirname, 'public', file), resolve(__dirname, 'dist', file));
+    }
   }
 });
 
 export default defineConfig({
   root: 'src',
+  publicDir: resolve(__dirname, 'public'),
   server: {
     open: '/html/index.html'
   },

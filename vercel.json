@@ -9,6 +9,8 @@
     { "source": "/contact-preview", "destination": "/html/contact-preview.html" },
     { "source": "/privacy", "destination": "/html/privacy-policy.html" },
     { "source": "/terms", "destination": "/html/terms-and-conditions.html" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
     { "source": "/404", "destination": "/html/404.html" }
   ]
 }
